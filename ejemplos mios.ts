@@ -95,3 +95,79 @@ for (let i = 1; i <= limit; i++){
     console.log(base, 'x', i, '=', base * i);
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+interface familia {
+    name: string;
+    age: number;
+    eyesColor: string;
+    favoriteSport: string;
+}
+
+
+
+
+let Fernando: familia = {
+    name: 'fernando',
+    age: 16,
+    eyesColor: 'brown',
+    favoriteSport: 'football'
+
+}
+
+let Luciana:familia = {
+    name: 'luciana',
+    age: 9,
+    eyesColor: 'brown',
+    favoriteSport: 'skating'
+
+}
+
+let Marisol: familia = {
+    name: 'marisol',
+    age: 41,
+    eyesColor: 'brown',
+    favoriteSport: 'basketball'
+
+}
+
+
+let Jhon: familia = {
+    name: 'jhon jairo',
+    age: 24,
+    eyesColor: 'brown',
+    favoriteSport: 'football'
+
+}
+
+
+let family = [Fernando , Luciana ,  Marisol , Jhon ];
+
+for (let i =0;i <= 3; i++){
+
+    let complete = family[i]
+
+    console.log(complete.name, + ' '+ complete.age, +' '+ complete.eyesColor, + ' '+ complete.favoriteSport);
+
+}
