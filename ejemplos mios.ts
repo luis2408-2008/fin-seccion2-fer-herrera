@@ -118,7 +118,7 @@ for (let i = 1; i <= limit; i++){
 
 
 
-interface familia {
+interface Familia {
     name: string;
     age: number;
     eyesColor: string;
@@ -128,7 +128,7 @@ interface familia {
 
 
 
-let Fernando: familia = {
+let Fernando: Familia = {
     name: 'fernando',
     age: 16,
     eyesColor: 'brown',
@@ -136,7 +136,7 @@ let Fernando: familia = {
 
 }
 
-let Luciana:familia = {
+let Luciana:Familia = {
     name: 'luciana',
     age: 9,
     eyesColor: 'brown',
@@ -144,7 +144,7 @@ let Luciana:familia = {
 
 }
 
-let Marisol: familia = {
+let Marisol: Familia = {
     name: 'marisol',
     age: 41,
     eyesColor: 'brown',
@@ -153,7 +153,7 @@ let Marisol: familia = {
 }
 
 
-let Jhon: familia = {
+let Jhon: Familia = {
     name: 'jhon jairo',
     age: 24,
     eyesColor: 'brown',
